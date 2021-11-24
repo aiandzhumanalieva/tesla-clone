@@ -1,0 +1,102 @@
+.header{
+background-image: url(../img/model-s.jpg);
+padding-top: 18px;
+/* три столбика для картинки в background машина */
+box-sizing: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 100vh;
+}
+
+.nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.header_center--nav{
+    display: flex;
+}
+.header_center--nav li{
+font-size: 14px;
+font-weight: 500px;
+padding-right: 30px;
+}
+
+.header_right--nav{
+display: flex;
+}
+.header_right--nav li{
+font-size: 14px;
+font-weight: 500px;
+padding-right: 30px;
+}
+.sub_title{
+    text-align: center;
+}
+.sub_title h2{
+    font-size: 40px;
+    color: #3c3f44;
+    margin-top: 30px;
+    font-weight: 200px;
+}
+
+.sub_title p{
+    color: #3c3f44;
+}
+.sub_title p span{
+    border-bottom: 1px solid #3c3f44;
+}
+
+.header_footer_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 500px;
+}
+
+.header_footer_btn button {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.header_footer_btn button{
+    font-size: 12px;
+    font-weight: 500px;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.header_footer_btn button:first-child{
+    color: antiquewhite;
+    background: #333438;
+    margin-right: 25px;
+
+}
+
+.arrow{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.arrow img{
+    height: 50px;
+    /* ниже чтобы стрелочка прыгала  */
+    animation: down .2s infinite;
+}
+
+@keyframes down{
+0% {
+    transform: translateY(-3px);
+}
+}
+
+ 
